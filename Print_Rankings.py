@@ -59,7 +59,7 @@ def generate_pdf(title, df, last_updated, is_top_200=False):
     if not is_top_200:
         pdf.set_font("Arial", "I", 8)
         pdf.cell(0, 4, f"Last Updated: {last_updated}", ln=True, align="C")
-    pdf.ln(5)
+    pdf.ln(2)
 
     # ✅ Set optimized column widths
     total_width = 190 if not is_top_200 else 275  
@@ -141,13 +141,13 @@ def generate_top_200_pdf(title, df):
     
     # ✅ Add Image (Top Right Corner)
     image_path = "ffa_red.png"  # Local path
-    pdf.image(image_path, x=160, y=2, w=20)  # Adjust X, Y, and width as needed
-    pdf.image(image_path, x=30, y=2, w=20)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=147, y=-2, w=35)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=27, y=-2, w=35)  # Adjust X, Y, and width as needed
     
     # ✅ Sub-header: Last Updated (Smaller Font, Only for Full Rankings)
     pdf.set_font("Arial", "I", 8)
     pdf.cell(0, 4, f"Last Updated: {last_updated}", ln=True, align="C")
-    pdf.ln(5)
+    pdf.ln(2)
 
     # ✅ Convert ADP to Integer (Fix Decimal Issue)
     df["ADP"] = pd.to_numeric(df["ADP"], errors="coerce").fillna(0).astype(int)  # Convert to int, handle NaNs
