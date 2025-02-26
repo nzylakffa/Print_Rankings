@@ -141,8 +141,8 @@ def generate_top_200_pdf(title, df):
     
     # ✅ Add Image (Top Right Corner)
     image_path = "ffa_red.png"  # Local path
-    pdf.image(image_path, x=142, y=-2, w=35)  # Adjust X, Y, and width as needed
-    pdf.image(image_path, x=32, y=-2, w=35)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=152, y=-2, w=35)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=22, y=-2, w=35)  # Adjust X, Y, and width as needed
     
     # ✅ Sub-header: Last Updated (Smaller Font, Only for Full Rankings)
     pdf.set_font("Arial", "I", 8)
