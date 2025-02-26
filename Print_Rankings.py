@@ -134,7 +134,7 @@ def generate_top_200_pdf(title, df):
     pdf.add_page()
     
     # ✅ Header: One Page Top 200
-    pdf.set_font("Arial", "B", 10)
+    pdf.set_font("Arial", "B", 14)
     pdf.cell(0, 6, title, ln=True, align="C")
     pdf.ln(2)
     
