@@ -52,7 +52,7 @@ def generate_pdf(title, df, last_updated, is_top_200=False):
     
     # ✅ Add Image (Top Right Corner)
     image_path = "ffa_red.png"  # Local path
-    pdf.image(image_path, x=161, y=-2, w=35)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=155, y=-2, w=35)  # Adjust X, Y, and width as needed
 
     # ✅ Sub-header: Last Updated (Smaller Font, Only for Full Rankings)
     if not is_top_200:
