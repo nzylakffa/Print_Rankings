@@ -137,6 +137,10 @@ def generate_top_200_pdf(title, df):
     pdf.set_font("Arial", "B", 10)
     pdf.cell(0, 6, title, ln=True, align="C")
     pdf.ln(2)
+    
+    # ✅ Add Image (Top Right Corner)
+    image_path = "ffa_red.png"  # Local path
+    pdf.image(image_path, x=147, y=-2, w=35)  # Adjust X, Y, and width as needed
 
     # ✅ Convert ADP to Integer (Fix Decimal Issue)
     df["ADP"] = pd.to_numeric(df["ADP"], errors="coerce").fillna(0).astype(int)  # Convert to int, handle NaNs
