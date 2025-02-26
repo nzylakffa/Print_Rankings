@@ -140,8 +140,8 @@ def generate_top_200_pdf(title, df):
     
     # ✅ Add Image (Top Right Corner)
     image_path = "ffa_red.png"  # Local path
-    pdf.image(image_path, x=160, y=0, w=20)  # Adjust X, Y, and width as needed
-    pdf.image(image_path, x=60, y=0, w=20)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=160, y=2, w=20)  # Adjust X, Y, and width as needed
+    pdf.image(image_path, x=10, y=2, w=20)  # Adjust X, Y, and width as needed
 
     # ✅ Convert ADP to Integer (Fix Decimal Issue)
     df["ADP"] = pd.to_numeric(df["ADP"], errors="coerce").fillna(0).astype(int)  # Convert to int, handle NaNs
