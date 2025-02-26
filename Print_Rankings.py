@@ -35,6 +35,7 @@ POS_COLORS = {
 }
 
 st.markdown("<h1 style='text-align: center;'>Download Rankings as PDF</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Takes ~30 Sec to load</h1>", unsafe_allow_html=True)
 
 # ✅ **Color Coding Selection**
 color_option = st.selectbox("Would you like color coding?", ["Yes", "No"])
