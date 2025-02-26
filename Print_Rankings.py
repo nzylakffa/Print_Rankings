@@ -49,7 +49,8 @@ def generate_pdf(title, df, last_updated, is_top_200=False):
     
     # ✅ Header: HPPR Rankings or One Page Top 200
     pdf.set_font("Arial", "B", 14)
-    pdf.cell(0, 10, title, ln=True, align="C")
+    pdf.cell(0, 6, title, ln=True, align="C")
+    pdf.ln(1)
     
     # ✅ Add Image (Top Right Corner)
     image_path = "ffa_red.png"  # Local path
@@ -60,7 +61,7 @@ def generate_pdf(title, df, last_updated, is_top_200=False):
     if not is_top_200:
         pdf.set_font("Arial", "I", 8)
         pdf.cell(0, 4, f"Last Updated: {last_updated}", ln=True, align="C")
-        pdf.ln(1)
+        pdf.ln(2)
 
     # ✅ Set optimized column widths
     total_width = 190 if not is_top_200 else 275  
