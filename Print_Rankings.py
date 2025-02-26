@@ -235,7 +235,7 @@ with col2:
                 df.rename(columns={"Ovr Rank": "Rank"}, inplace=True)
 
             df_top_200 = df[["Rank", "ADP", "Player Name", "Team", "Pos"]].head(200)
-            top_200_pdf = generate_top_200_pdf(f" Top 200 - {title}", df_top_200)
+            top_200_pdf = generate_top_200_pdf(f"{title}", df_top_200)
 
             # 🔹 Direct download link to prevent re-run
             st.markdown(get_pdf_download_link(top_200_pdf, f"Top_200_{title}.pdf", f"⏬ {title}"), unsafe_allow_html=True)
