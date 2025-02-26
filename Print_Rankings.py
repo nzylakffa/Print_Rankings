@@ -137,7 +137,7 @@ def generate_top_200_pdf(title, df):
     # ✅ Header: One Page Top 200
     pdf.set_font("Arial", "B", 14)
     pdf.cell(0, 6, title, ln=True, align="C")
-    pdf.ln(2)
+    pdf.ln(1)
     
     # ✅ Add Image (Top Right Corner)
     image_path = "ffa_red.png"  # Local path
