@@ -143,6 +143,12 @@ def generate_top_200_pdf(title, df):
     image_path = "ffa_red.png"  # Local path
     pdf.image(image_path, x=160, y=2, w=20)  # Adjust X, Y, and width as needed
     pdf.image(image_path, x=30, y=2, w=20)  # Adjust X, Y, and width as needed
+    
+    # ✅ Sub-header: Last Updated (Smaller Font, Only for Full Rankings)
+    if not is_top_200:
+        pdf.set_font("Arial", "I", 8)
+        pdf.cell(0, 4, f"Last Updated: {last_updated}", ln=True, align="C")
+    pdf.ln(5)
 
     # ✅ Convert ADP to Integer (Fix Decimal Issue)
     df["ADP"] = pd.to_numeric(df["ADP"], errors="coerce").fillna(0).astype(int)  # Convert to int, handle NaNs
