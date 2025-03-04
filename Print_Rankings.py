@@ -8,13 +8,13 @@ import base64
 # ✅ Public Google Sheets (No Credentials Needed)
 SHEET_URLS = {
     "HPPR Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=593850694#gid=593850694",
-    "PPR Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=2116955188#gid=2116955188",
-    "Standard Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=1886253811#gid=1886253811",
-    "3 WR HPPR Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=2128569716",
-    "3 WR PPR Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=496321386#gid=496321386",
-    "PPR SuperFlex Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=1099594593#gid=1099594593",
-    "TE Premium Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=866813728#gid=866813728",
-    "PPR 6 Point Pass TD Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=1095986422#gid=1095986422"
+    "PPR Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=2116955188#gid=2116955188",
+    "Standard Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=1886253811#gid=18862538111",
+    "3 WR HPPR Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=2128569716#gid=2128569716",
+    "3 WR PPR Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=496321386#gid=496321386",
+    "PPR SuperFlex Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=1099594593#gid=1099594593",
+    "TE Premium Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=866813728#gid=866813728",
+    "PPR 6 Point Pass TD Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=1095986422#gid=1095986422"
 }
 
 # ✅ Columns to Keep (For Full Rankings)
