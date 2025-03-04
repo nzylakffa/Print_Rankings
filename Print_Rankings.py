@@ -7,7 +7,7 @@ import base64
 
 # ✅ Public Google Sheets (No Credentials Needed)
 SHEET_URLS = {
-    "HPPR Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=593850694",
+    "HPPR Rankings": "https://docs.google.com/spreadsheets/d/1Qt7zriA6f696jAeXv3XvzdJPmml8QuplGU9fU-3-SRs/gviz/tq?tqx=out:csv&gid=593850694#gid=593850694",
     "PPR Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=2116955188#gid=2116955188",
     "Standard Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=1886253811#gid=1886253811",
     "3 WR HPPR Rankings": "https://docs.google.com/spreadsheets/d/1O7XxafNJnvAQHvsPS93hX5BIMqphEfyjovGfdWNM5Ow/gviz/tq?tqx=out:csv&gid=2128569716",
